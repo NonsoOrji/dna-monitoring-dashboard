@@ -15,7 +15,7 @@ st.markdown("Real-time monitoring of SpectraMax DNA concentration assays with Q-
 
 # ===== CLOUD VERSION - DOWNLOADS TOOL FILE FROM GITHUB =====
 GITHUB_REPO = "NonsoOrji/dna-monitoring-dashboard"
-GITHUB_RAW_URL = f"https://raw.githubusercontent.com/{GITHUB_REPO}/main/Tool-000011_DNA_Concentration_with_SpectraMax_Nonso_Version_Macro.xlsm"
+GITHUB_RAW_URL = f"https://raw.githubusercontent.com/{GITHUB_REPO}/main/data/Tool-000011_DNA_Concentration_with_SpectraMax_Nonso_Version_Macro.xlsm"
 
 @st.cache_data(ttl=3600)  # Cache for 1 hour
 def load_data_from_github():
